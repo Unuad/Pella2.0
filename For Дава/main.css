@@ -12,7 +12,7 @@ aside {
   color: #fff;
   border-right: 5px solid #21759B;
   border: 5px solid #21759B;
-  
+
 }
 
 aside img {
@@ -39,7 +39,7 @@ aside ul li {
   margin-top: 25px;
   display: block;
   transition: transform .6s ease;
-  
+
 }
 
 aside ul li:hover, aside ul a {
@@ -71,4 +71,63 @@ form {
   margin-left: 32%;
   margin-top: 50px;
   width: 500px;
+}
+
+/* Slider */
+
+.slider {
+  width: 500px;
+  height: 300px;
+  margin: 100px auto;
+  position: relative;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.img {
+  text-align: center;
+  line-height: 300px;
+  position: absolute;
+  font-size: 50px;
+  color:#fff;
+  display: none;
+}
+
+.img.curry {
+  display:
+}
+
+.img:first-child {
+  width: 500px;
+  background: #CA0F1F;
+}
+
+.img:nth-child(2) {
+  width: 500px;
+  background: #0ADD75;
+}
+
+.img:nth-child(3) {
+  width: 500px;
+  background: #0AB6DD;
+}
+
+.img:nth-child(4) {
+  width: 500px;
+  background: #FD7ED;
+}
+
+.img:nth-child(5) {
+  width: 500px;
+  background: #BFBFBF;
+}
+
+.n {
+  color: #575757
+}
+
+a {
+  text-decoration: none;
+  color:
 }
