@@ -12,7 +12,7 @@ aside {
   color: #fff;
   border-right: 5px solid #21759B;
   border: 5px solid #21759B;
-  
+
 }
 
 aside img {
@@ -27,6 +27,8 @@ aside p {
   border-top: 5px solid #21759B;
   border-bottom: 5px solid #21759B;
   position: fixed;
+  font: 3.8em Arial, sans-serif;
+  text-shadow: rgb(0, 0, 0) 0 0 7px;
 }
 
 aside ul {
@@ -39,7 +41,7 @@ aside ul li {
   margin-top: 25px;
   display: block;
   transition: transform .6s ease;
-  
+
 }
 
 aside ul li:hover, aside ul a {
@@ -72,8 +74,3 @@ form {
   margin-top: 50px;
   width: 500px;
 }
-
-.stroke {
-  font: 3.8em Arial, sans-serif;
-  text-shadow: rgb(0, 0, 0) 0 0 7px;
- }

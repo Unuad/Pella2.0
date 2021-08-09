@@ -11,8 +11,6 @@ aside {
   height: 100vh;
   color: #fff;
   border-right: 5px solid #21759B;
-  border: 5px solid #21759B;
-
 }
 
 aside img {
@@ -20,30 +18,22 @@ aside img {
   float: left;
 }
 
-
-aside p {
-  margin-top: 230px;
-  font-size: 35px;
-  border-top: 5px solid #21759B;
-  border-bottom: 5px solid #21759B;
-  position: fixed;
+aside h3 {
+  margin-top: 150px;
+  font-size: 30px;
 }
 
-aside ul {
-  list-style: none;
-  margin-top: 60px;
-}
+aside ul {list-style: none;}
 
 aside ul li {
   color: #fff;
   margin-top: 25px;
   display: block;
   transition: transform .6s ease;
-
 }
 
 aside ul li:hover, aside ul a {
-  color: #000000;
+  color: #eb5959;
   text-decoration: none;
   transform: scale(1.05);
 }
