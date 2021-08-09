@@ -72,3 +72,8 @@ form {
   margin-top: 50px;
   width: 500px;
 }
+
+.stroke {
+  font: 3.8em Arial, sans-serif;
+  text-shadow: rgb(0, 0, 0) 0 0 7px;
+ }
