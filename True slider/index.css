@@ -18,10 +18,7 @@ body {
 
 .img {
   text-align: center;
-  line-height: 300px;
   position: absolute;
-  font-size: 50px;
-  color:#fff;
   display: none;
 }
 
@@ -31,27 +28,22 @@ body {
 
 .img:first-child {
   width: 500px;
-  background: #CA0F1F;
 }
 
 .img:nth-child(2) {
   width: 500px;
-  background: #0ADD75;
 }
 
 .img:nth-child(3) {
   width: 500px;
-  background: #0AB6DD;
 }
 
 .img:nth-child(4) {
   width: 500px;
-  background: #FD7ED;
 }
 
 .img:nth-child(5) {
   width: 500px;
-  background: #BFBFBF;
 }
 
 .n {
