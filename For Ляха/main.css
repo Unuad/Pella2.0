@@ -3,37 +3,43 @@ body {
 }
 
 aside {
-  position: fixed;
+
+  position: absolute;
   float: left;
   background: #00A1FC;
-  width: 20%;
+  height: auto;
+  width: auto;
   padding: 2.5%;
   height: 100vh;
   color: #fff;
-  border-right: 5px solid #21759B;
-  border: 5px solid #21759B;
+
 
 }
 
 aside img {
-
+  position: absolute;
+  height: auto;
+  width: auto;
   float: left;
+
 }
 
 
 aside p {
-  margin-top: 230px;
+  margin-top: 185px;
   font-size: 35px;
   border-top: 5px solid #21759B;
   border-bottom: 5px solid #21759B;
   position: fixed;
-  font: 3.8em Arial, sans-serif;
+  font: 3em Arial, sans-serif;
   text-shadow: rgb(0, 0, 0) 0 0 7px;
+
 }
 
 aside ul {
   list-style: none;
-  margin-top: 60px;
+  margin-top: 360px;
+  border-left: 5px solid #21759B;
 }
 
 aside ul li {
@@ -55,7 +61,8 @@ main .features {
   color: black;
   margin-top: 100px;
   text-align: center;
-  width: 75%;
+  width: 110%;
+  
 }
 
 main .features h1 {font-size: 50px;}
@@ -74,3 +81,4 @@ form {
   margin-top: 50px;
   width: 500px;
 }
+
